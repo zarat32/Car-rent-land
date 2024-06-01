@@ -1,0 +1,1270 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2e2639332f.js" crossorigin="anonymous"></script>
+
+  <title>Rent-Car22</title>
+</head>
+
+<body>
+
+  <header class="container-fluid">
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-5 themed-grid-col">
+          <a href="/">
+            <img src="images/LOGO2.jpg" alt="" class="logo" />
+          </a>
+        </div>
+        <div class="col-7 themed-grid-col">
+          <div class="col-12 contacts">
+            <div class="row mb-2">
+              <div class="col">
+                <p class="contact-info-left">Заказ авто:</p><a class="phone-number"
+                  href="https://api.whatsapp.com/send?phone=79130991333" target="_blank">
+                  <svg class="phone-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1" id="Capa_1" x="0px" y="0px" width="21.854px" height="21.854px"
+                    viewBox="0 0 21.854 21.854" style="enable-background:new 0 0 21.854 21.854;" xml:space="preserve">
+                    <g>
+                      <g>
+                        <path
+                          d="M12.915,16.32c-1.3-0.685-2.755-1.715-4.21-3.168c-1.456-1.457-2.487-2.914-3.171-4.216l1.127-3.026l-3.799-5.91    L1.61,1.254l0.001,0.003C1.603,1.266,1.593,1.271,1.583,1.282c-3.158,3.157-1.457,9.621,3.957,15.035    c5.414,5.413,11.877,7.113,15.036,3.957c0.009-0.01,0.016-0.02,0.024-0.029l1.252-1.254l-5.908-3.799L12.915,16.32z"
+                          style="fill:#f8011a" />
+                        <path
+                          d="M20.101,11.375h1.75C21.851,5.104,16.749,0,10.477,0v1.75C15.784,1.75,20.101,6.069,20.101,11.375z"
+                          style="fill:#f8011a" />
+                        <path
+                          d="M16.601,11.375h1.75c0-4.343-3.531-7.875-7.875-7.875v1.75C13.853,5.25,16.601,7.998,16.601,11.375z"
+                          style="fill:#f8011a" />
+                        <path
+                          d="M13.101,11.375h1.75C14.851,8.962,12.888,7,10.477,7v1.75C11.925,8.75,13.101,9.928,13.101,11.375z"
+                          style="fill:#f8011a" />
+                      </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                  </svg>
+                  <svg class="wa-svg-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 418.135 418.135"
+                    style="enable-background:new 0 0 418.135 418.135;" xml:space="preserve">
+                    <g>
+                      <path style="fill:#41b82e;"
+                        d="M198.929,0.242C88.5,5.5,1.356,97.466,1.691,208.02c0.102,33.672,8.231,65.454,22.571,93.536   L2.245,408.429c-1.191,5.781,4.023,10.843,9.766,9.483l104.723-24.811c26.905,13.402,57.125,21.143,89.108,21.631   c112.869,1.724,206.982-87.897,210.5-200.724C420.113,93.065,320.295-5.538,198.929,0.242z M323.886,322.197   c-30.669,30.669-71.446,47.559-114.818,47.559c-25.396,0-49.71-5.698-72.269-16.935l-14.584-7.265l-64.206,15.212l13.515-65.607   l-7.185-14.07c-11.711-22.935-17.649-47.736-17.649-73.713c0-43.373,16.89-84.149,47.559-114.819   c30.395-30.395,71.837-47.56,114.822-47.56C252.443,45,293.218,61.89,323.887,92.558c30.669,30.669,47.559,71.445,47.56,114.817   C371.446,250.361,354.281,291.803,323.886,322.197z" />
+                      <path style="fill:#41b82e;"
+                        d="M309.712,252.351l-40.169-11.534c-5.281-1.516-10.968-0.018-14.816,3.903l-9.823,10.008   c-4.142,4.22-10.427,5.576-15.909,3.358c-19.002-7.69-58.974-43.23-69.182-61.007c-2.945-5.128-2.458-11.539,1.158-16.218   l8.576-11.095c3.36-4.347,4.069-10.185,1.847-15.21l-16.9-38.223c-4.048-9.155-15.747-11.82-23.39-5.356   c-11.211,9.482-24.513,23.891-26.13,39.854c-2.851,28.144,9.219,63.622,54.862,106.222c52.73,49.215,94.956,55.717,122.449,49.057   c15.594-3.777,28.056-18.919,35.921-31.317C323.568,266.34,319.334,255.114,309.712,252.351z" />
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                  </svg>
+                  913 099 13 33</a>
+              </div>
+              <div class="col">
+                <p class="contact-info-left"> Приём звонков:</p>
+                <p class="contact-info-right">C 8:00 ДО 21:00 (+4МСК) без выходных</p>
+              </div>
+              <nav class="nav-bar">
+                <ul>
+                  <li class="active"><a href="/"><span>Главная</span></a> </li>
+                  <li><a href="#vehicle"><span>Автомобили</span></a> </li>
+                  <li><a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><span>Условия Аренды</span></a>
+                  </li>
+                  <!-- Модальное окно -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header text-center">
+                          <h5 class="modal-title text-center" id="staticBackdropLabel">Условия проката автомобилей</h5>
+                          <div class="mr-3">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                              aria-label="Закрыть"></button>
+                          </div>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal-flex condition-text">
+                            <span class="modal-text-title">Требования к арендатору</span>
+
+                            <span class="modal-text-content">Возраст - от 23 лет;</span>
+                            <span class="modal-text-content">Водительский стаж - от 3-х лет.</span>
+                            <span class="modal-text-content">Необходимые документы</span>
+                            <span class="modal-text-content">Общегражданский паспорт;</span>
+                            <span class="modal-text-content">Водительское удостоверение;</span>
+                            <span class="modal-text-content">Иностранным гражданам - паспорт, въездная виза или
+                              миграционная карта, водительское удостоверение международного образца. </span>
+
+                            <span class="modal-text-title">Условия оплаты</span>
+
+                            <span class="modal-text-content">100% предоплата, любым удобным для Вас способом: наличными
+                              или банковским переводом;</span>
+                            <span class="modal-text-content">Предоплата за весь период проката автомобиля. При возврате
+                              раньше срока - перерасчет, исходя из фактического периода пользования автомобилем;</span>
+                            <span class="modal-text-content">В случае задержки возврата автомобиля более чем на один час
+                              - оплачивается стоимость дополнительных суток проката автомобиля.</span>
+
+                            <span class="modal-text-title">Залоговый депозит:</span>
+
+                            <span class="modal-text-content">Залоговый депозит является гарантией соблюдения Арендатором
+                              условий Договора аренды автомобиля;</span>
+                            <span class="modal-text-content">После возврата автомобиля, и проведения окончательных
+                              расчетов за аренду, залоговый депозит возвращается.</span>
+
+                            <span class="modal-text-title">Дополнительные условия</span>
+
+                            <span class="modal-text-content">Минимальный срок аренды автомобиля - одни сутки (24 часа) с
+                              момента его получения;</span>
+                            <span class="modal-text-content">Выдача и возврат автомобилей производятся в любое время
+                              суток; </span>
+                            <span class="modal-text-content">Возможна доставка и возврат автомобиля по адресу клиента по
+                              предварительному согласованию; </span>
+                            <span class="modal-text-content">Автомобиль предоставляется чистый, с полным баком,
+                              возвращается также чистый, с полным баком; </span>
+                            <span class="modal-text-content">Если автомобиль возвращается грязным и/или не заправленным
+                              компенсация рассчитывается по тарифам: </span>
+                            <span class="modal-text-content">1000 руб. за мойку в зависимости от степени загрязнения,
+                            </span>
+                            <span class="modal-text-content">80 руб/литр топлива;</span>
+                            <span class="modal-text-content">Арендованный автомобиль разрешено использовать только на
+                              территории Российской Федерации;</span>
+                            <span class="modal-text-content">Каждый дополнительный водитель должен быть записан в
+                              договоре аренды. Требования такие же, как к основному водителю;</span>
+                            <span class="modal-text-content">Ограничение по суточному пробегу составляет 300 км, при
+                              превышении лимита взимается оплата из расчета 5 рублей за километр.</span>
+
+                            <span class="modal-text-title">Ответственность</span>
+
+                            <span class="modal-text-content"> За повреждение шин, колесных дисков, стекол, оптики, утерю
+                              декоративных колпаков, сохранность магнитол и GPS-навигаторов - полная материальная
+                              ответственность;</span>
+                            <span class="modal-text-content">При возникновении ущерба по вине третьего лица, личность
+                              которого установлена, и при условии предоставления справок о ДТП сумма ответственности
+                              Арендатора равна нулю;</span>
+                            <span class="modal-text-content">В случае нарушения условий Договора аренды, в том числе не
+                              предоставления справок о ДТП - полная материальная ответственность за причиненный
+                              ущерб;</span>
+                            <span class="modal-text-content">В случае ДТП, причинения ущерба автомобилю арендодатель
+                              извещается в первую очередь.</span>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="button-blacklotus" data-bs-dismiss="modal">Закрыть</button>
+                          <div class="afferta-box"><a
+                              href="https://drive.google.com/file/d/1Cl5N8-Q8qjvN2oBGWLHUkexbOtPXgKdX/view"
+                              target="_blank" class="button-red">Типовой договор аренды автомобиля</a> <span
+                              class="afferta-dsiclaimer">не является публичной афертой </span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- конец модального окна -->
+                  <li><a href="#"><span>Стоимость Проката</a></span> </li>
+                  <li><a href="#contacts"><span>Контакты</span></a> </li>
+                </ul>
+                <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                <script type="text/javascript">
+                  $(document).on('click', 'ul li', function () {
+                    $(this).addClass('active').siblings().removeClass('active')
+                  })
+                </script>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Corousel block START-->
+  <div class="form-block-carousel">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-xs-12 pull-right d-flex justify-content-center">
+          <!-- Reservation-form-window start -->         
+          <div class="reservation-form-shadow">
+            <form action="#" class="form-calculator">
+               <div class="form-flexer">
+              <div class="form__item">
+                <div class="select-wrapper">
+                  <select id="selectcar" onchange="getSelectValue()" class="select">
+                    <option selected>Выберите автомобиль</option>
+                    <option data-name ="DUTSUN-ON-DO-2013" value="DUTSUN-ON-DO-2013" class="rent-car">DATSUN ON-DO 1.6 2013</option>
+                    <option data-name ="HYUNDAI-SOLARIS-2012" value="HYUNDAI-SOLARIS-2012" class="rent-car">HYUNDAI SOLARIS 1.6 2012</option>
+                    <option data-name ="HYUNDAI-SOLARIS-2011" value="HYUNDAI-SOLARIS-2011" class="rent-car">HYUNDAI SOLARIS 1.6 2011</option>
+                    <option data-name ="FORD-FOCUS-2011" value="FORD-FOCUS-2011" class="rent-car">FORD FOCUS 1.6 2011</option>
+                    <option data-name ="KIA-CERATO-2009" value="KIA-CERATO-2009" class="rent-car">KIA CERATO 1.6 2009</option>
+                    <option data-name ="KIA-RIO-2016" value="KIA-RIO-2016" class="rent-car">KIA RIO 1.6 2016</option>
+                    <option data-name ="KIA-OPTIMA-2012" value="KIA-OPTIMA-2012" class="rent-car">KIA OPTIMA 2.0 2012</option>
+                  </select>
+                </div>
+              </div>              
+              <div class="form__item">
+                <h6 class="calc-heading">Количество дней аренды (минимум сутки)</h6>
+                <div class="slider">
+                <input type="range" name="time" id="time" class="range-input" step="1" min="1" max="96" value="1"/>
+                <output id="volume" for="time">1</output>
+                </div>
+              </div>
+              <div class="form__item">
+                <h6 class="calc-heading">Дополнительные параментры</h6>
+              </div>
+              <div class="option__item">
+                <input type="checkbox" name="option1" id="option1" class="option"/>
+                <label for="option1" class="checkmark"></label>
+                <label for="option1">Детское кресло</label>
+              </div>
+              <div class="option__item">
+                <input type="checkbox" name="option2" id="option2" class="option"/>
+                <label for="option2" class="checkmark"></label>
+                <label for="option2">Доставка авто в аэропорт Барнаула </label>
+              </div>
+              <div class="option__item">
+                <input type="checkbox" name="option3" id="option3" class="option"/>
+                <label for="option3" class="checkmark"></label>
+                <label for="option3">Доставка авто в аэропорт Новосибирска</label>
+              </div>              
+            </div>          
+              <div class="form-flexer2">              
+              <div class="form__item2">
+                <h6 class="calc-heading">Итого:</h6>
+                <output class="total" id="total">0</output>
+              </div>
+            </div>
+            </form>
+          </div>          
+        </div>
+        <!-- Reservation-form-window end -->
+        <div class="col-md-7 col-xs-12 pull-left">
+          <div class="slide-show">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-container">
+                    <h1 class="title">
+                      HYUNDAI SOLARIS от 1400 р в сутки
+                    </h1>
+                    <span class="subtitle">Для отдыха, путешествий или деловых поездок</span>
+                    <img src="images/carousel-item2_m.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-container">
+                    <h1 class="title">
+                      Автомобиль прямо в аэропорт
+                    </h1>
+                    <span class="subtitle">Сэкономим ваше время</span>
+                    <img src="images/carousel-item1_m.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="arrow-down"></div>
+  <!-- Corousel block END-->
+
+
+
+  <!-- Block MAIN -->
+  <div class="stm-reservation-archive">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="stm-reservation-archive-top">
+            <h2 class="auto-list-title" id="vehicle">Автомобили</h2>
+          </div>
+          <!-- Car 1 -->
+          <div class="stm-single-class-car" id="product-1">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 first">
+                <div class="car-img">
+                  <div class="blockImg"><img class="img-responsive wp-post-image" src="images/product-6.png">
+
+                    <div class="prices-tb-extended">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Сутки</td>
+                            <td>Стоимость</td>
+                          </tr>
+                          <tr>
+                            <td>1-7 дней</td>
+                            <td>1450 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>8-15 дней</td>
+                            <td>1400 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>15-30 дней</td>
+                            <td>1350 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>более 30 дней</td>
+                            <td>1300 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>Залог</td>
+                            <td>3000 р</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 second">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h3 class="auto-model-title">DATSUN ON-DO 1.6 2013</h3>
+                    <div class="car-info-content">
+                      <div class="single-info-left">
+                        <div class="single-info">
+                          <img src="images/year.png" width="20px" height="20px" class="info-icon" alt=""><span>Год
+                            выпуска: 2013</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/icon1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Трансмиссия: Автомат</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/privod.png" width="20px" height="20px" class="info-icon" alt=""><span>Привод:
+                            Передний</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Sedan.png" width="20px" height="20px" class="info-icon" alt=""><span>Кузов:
+                            Седан (коричневый)</span>
+                        </div>
+                      </div>
+                      <div class="single-info-right">
+                        <div class="single-info">
+                          <img src="images/Fuel1.png" width="20px" height="20px" class="info-icon" alt=""><span>Топливо:
+                            АИ-95</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Seats.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Количество мест: 4</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Ac.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Кондиционер: Есть</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Aux1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Магнитола: Есть</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="container">
+                      <div class="button-price">
+                        <div class="button-price-text-block">
+                          от <span class="button-price-text">1300</span> р/сут
+                        </div>
+                        <a href="#" class="btn-1"><span class="btn-txt">ЗАКАЗАТЬ</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- car2 -->
+          <div class="stm-single-class-car" id="product-1">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 first">
+                <div class="car-img">
+                  <div class="blockImg"><img class="img-responsive wp-post-image" src="images/product-1.png">
+                    <div class="prices-tb">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Сутки</td>
+                            <td>Стоимость</td>
+                          </tr>
+                          <tr>
+                            <td>1-7 дней</td>
+                            <td>1500 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>8-15 дней</td>
+                            <td>1450 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>15-30 и более дней</td>
+                            <td>1400 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>Залог</td>
+                            <td>3000 р</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 second">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h3 class="auto-model-title">HYUNDAI SOLARIS 1.6 2012</h3>
+                    <div class="car-info-content">
+                      <div class="single-info-left">
+                        <div class="single-info">
+                          <img src="images/year.png" width="20px" height="20px" class="info-icon" alt=""><span>Год
+                            выпуска: 2012</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/icon1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Трансмиссия: Автомат</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/privod.png" width="20px" height="20px" class="info-icon" alt=""><span>Привод:
+                            Передний</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Sedan.png" width="20px" height="20px" class="info-icon" alt=""><span>Кузов:
+                            Седан (серый)</span>
+                        </div>
+                      </div>
+                      <div class="single-info-right">
+                        <div class="single-info">
+                          <img src="images/Fuel1.png" width="20px" height="20px" class="info-icon" alt=""><span>Топливо:
+                            АИ-95</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Seats.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Количество мест: 4</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Ac.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Кондиционер: Есть</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Aux1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Магнитола: Есть</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="container">
+                      <div class="button-price">
+                        <div class="button-price-text-block">
+                          от <span class="button-price-text">1400</span> р/сут
+                        </div>
+                        <a href="#" class="btn-1"><span class="btn-txt">ЗАКАЗАТЬ</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- car-3 -->
+          <div class="stm-single-class-car" id="product-1">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 first">
+                <div class="car-img">
+                  <div class="blockImg"><img class="img-responsive wp-post-image" src="images/product-2.png">
+                    <div class="prices-tb">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Сутки</td>
+                            <td>Стоимость</td>
+                          </tr>
+                          <tr>
+                            <td>1-7 дней</td>
+                            <td>1500 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>8-15 дней</td>
+                            <td>1450 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>15-30 и более дней</td>
+                            <td>1400 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>Залог</td>
+                            <td>3000 р</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 second">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h3 class="auto-model-title">HYUNDAI SOLARIS 1.6 2011</h3>
+                    <div class="car-info-content">
+                      <div class="single-info-left">
+                        <div class="single-info">
+                          <img src="images/year.png" width="20px" height="20px" class="info-icon" alt=""><span>Год
+                            выпуска: 2011</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/icon1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Трансмиссия: Автомат</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/privod.png" width="20px" height="20px" class="info-icon" alt=""><span>Привод:
+                            Передний</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Sedan.png" width="20px" height="20px" class="info-icon" alt=""><span>Кузов:
+                            хэтчбэк (красный гранат)</span>
+                        </div>
+                      </div>
+                      <div class="single-info-right">
+                        <div class="single-info">
+                          <img src="images/Fuel1.png" width="20px" height="20px" class="info-icon" alt=""><span>Топливо:
+                            АИ-95</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Seats.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Количество мест: 4</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Ac.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Кондиционер: Есть</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Aux1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Магнитола: Есть</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="container">
+                      <div class="button-price">
+                        <div class="button-price-text-block">
+                          от <span class="button-price-text">1400</span> р/сут
+                        </div>
+                        <a href="#" class="btn-1"><span class="btn-txt">ЗАКАЗАТЬ</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- car-4 -->
+          <div class="stm-single-class-car" id="product-1">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 first">
+                <div class="car-img">
+                  <div class="blockImg"><img class="img-responsive wp-post-image" src="images/product-4.png">
+                    <div class="prices-tb">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Сутки</td>
+                            <td>Стоимость</td>
+                          </tr>
+                          <tr>
+                            <td>1-7 дней</td>
+                            <td>1500 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>8-15 дней</td>
+                            <td>1450 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>15-30 и более дней</td>
+                            <td>1400 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>Залог</td>
+                            <td>3000 р</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 second">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h3 class="auto-model-title">FORD FOCUS 1.6 2011</h3>
+                    <div class="car-info-content">
+                      <div class="single-info-left">
+                        <div class="single-info">
+                          <img src="images/year.png" width="20px" height="20px" class="info-icon" alt=""><span>Год
+                            выпуска: 2012</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/icon1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Трансмиссия: Автомат</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/privod.png" width="20px" height="20px" class="info-icon" alt=""><span>Привод:
+                            Передний</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Sedan.png" width="20px" height="20px" class="info-icon" alt=""><span>Кузов:
+                            хэтчбэк (бирюзовый)</span>
+                        </div>
+                      </div>
+                      <div class="single-info-right">
+                        <div class="single-info">
+                          <img src="images/Fuel1.png" width="20px" height="20px" class="info-icon" alt=""><span>Топливо:
+                            АИ-95</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Seats.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Количество мест: 4</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Ac.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Кондиционер: Есть</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Aux1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Магнитола: Есть</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="container">
+                      <div class="button-price">
+                        <div class="button-price-text-block">
+                          от <span class="button-price-text">1400</span> р/сут
+                        </div>
+                        <a href="#" class="btn-1"><span class="btn-txt">ЗАКАЗАТЬ</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- car-5 -->
+          <div class="stm-single-class-car" id="product-1">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 first">
+                <div class="car-img">
+                  <div class="blockImg"><img class="img-responsive wp-post-image" src="images/product-7.png">
+
+                    <div class="prices-tb-extended">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Сутки</td>
+                            <td>Стоимость</td>
+                          </tr>
+                          <tr>
+                            <td>1-7 дней</td>
+                            <td>1800 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>8-15 дней</td>
+                            <td>1750 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>15-30 дней</td>
+                            <td>1700 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>более 30 дней</td>
+                            <td>1650 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>Залог</td>
+                            <td>3000 р</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 second">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h3 class="auto-model-title">KIA CERATO 1.6 2009</h3>
+                    <div class="car-info-content">
+                      <div class="single-info-left">
+                        <div class="single-info">
+                          <img src="images/year.png" width="20px" height="20px" class="info-icon" alt=""><span>Год
+                            выпуска: 2016</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/icon1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Трансмиссия: Автомат</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/privod.png" width="20px" height="20px" class="info-icon" alt=""><span>Привод:
+                            Передний</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Sedan.png" width="20px" height="20px" class="info-icon" alt=""><span>Кузов:
+                            Седан (серый)</span>
+                        </div>
+                      </div>
+                      <div class="single-info-right">
+                        <div class="single-info">
+                          <img src="images/Fuel1.png" width="20px" height="20px" class="info-icon" alt=""><span>Топливо:
+                            АИ-95</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Seats.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Количество мест: 4</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Ac.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Кондиционер: Есть</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Aux1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Магнитола: Есть</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="container">
+                      <div class="button-price">
+                        <div class="button-price-text-block">
+                          от <span class="button-price-text">1650</span> р/сут
+                        </div>
+                        <a href="#" class="btn-1"><span class="btn-txt">ЗАКАЗАТЬ</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- car-6 -->
+          <div class="stm-single-class-car" id="product-1">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 first">
+                <div class="car-img">
+                  <div class="blockImg"><img class="img-responsive wp-post-image" src="images/product-3.png">
+
+                    <div class="prices-tb-extended">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Сутки</td>
+                            <td>Стоимость</td>
+                          </tr>
+                          <tr>
+                            <td>1-7 дней</td>
+                            <td>1800 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>8-15 дней</td>
+                            <td>1750 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>15-30 дней</td>
+                            <td>1700 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>более 30 дней</td>
+                            <td>1650 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>Залог</td>
+                            <td>3000 р</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 second">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h3 class="auto-model-title">KIA RIO 1.6 2016</h3>
+                    <div class="car-info-content">
+                      <div class="single-info-left">
+                        <div class="single-info">
+                          <img src="images/year.png" width="20px" height="20px" class="info-icon" alt=""><span>Год
+                            выпуска: 2016</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/icon1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Трансмиссия: Автомат</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/privod.png" width="20px" height="20px" class="info-icon" alt=""><span>Привод:
+                            Передний</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Sedan.png" width="20px" height="20px" class="info-icon" alt=""><span>Кузов:
+                            Седан (серый)</span>
+                        </div>
+                      </div>
+                      <div class="single-info-right">
+                        <div class="single-info">
+                          <img src="images/Fuel1.png" width="20px" height="20px" class="info-icon" alt=""><span>Топливо:
+                            АИ-95</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Seats.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Количество мест: 4</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Ac.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Кондиционер: Есть</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Aux1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Магнитола: Есть</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="container">
+                      <div class="button-price">
+                        <div class="button-price-text-block">
+                          от <span class="button-price-text">1650</span> р/сут
+                        </div>
+                        <a href="#" class="btn-1"><span class="btn-txt">ЗАКАЗАТЬ</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- car-7 -->
+          <div class="stm-single-class-car" id="product-1">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 first">
+                <div class="car-img">
+                  <div class="blockImg"><img class="img-responsive wp-post-image" src="images/product-5.png">
+
+                    <div class="prices-tb-extended">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Сутки</td>
+                            <td>Стоимость</td>
+                          </tr>
+                          <tr>
+                            <td>1-7 дней</td>
+                            <td>2000 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>8-15 дней</td>
+                            <td>1950 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>15-30 дней</td>
+                            <td>1900 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>более 30 дней</td>
+                            <td>1800 р/сут</td>
+                          </tr>
+                          <tr>
+                            <td>Залог</td>
+                            <td>3000 р</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 second">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h3 class="auto-model-title">KIA OPTIMA 2.0 2012</h3>
+                    <div class="car-info-content">
+                      <div class="single-info-left">
+                        <div class="single-info">
+                          <img src="images/year.png" width="20px" height="20px" class="info-icon" alt=""><span>Год
+                            выпуска: 2012</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/icon1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Трансмиссия: Автомат</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/privod.png" width="20px" height="20px" class="info-icon" alt=""><span>Привод:
+                            Передний</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Sedan.png" width="20px" height="20px" class="info-icon" alt=""><span>Кузов:
+                            Седан (белый)</span>
+                        </div>
+                      </div>
+                      <div class="single-info-right">
+                        <div class="single-info">
+                          <img src="images/Fuel1.png" width="20px" height="20px" class="info-icon" alt=""><span>Топливо:
+                            АИ-95</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Seats.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Количество мест: 4</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Ac.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Кондиционер: Есть</span>
+                        </div>
+                        <div class="single-info">
+                          <img src="images/Aux1.png" width="20px" height="20px" class="info-icon"
+                            alt=""><span>Магнитола: Есть</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="container">
+                      <div class="button-price">
+                        <div class="button-price-text-block">
+                          от <span class="button-price-text">1800</span> р/сут
+                        </div>
+                        <a href="#" class="btn-1"><span class="btn-txt">ЗАКАЗАТЬ</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- car-end-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Block main end -->
+  <!-- Benefits -->
+  <div class="container">
+    <div class="row">
+      <span class="benefits">ПОЧЕМУ У НАС ВЫГОДНЕЕ?</span>
+      <div class="col-md-4 icon-box">
+        <div class="icon-svg-text">
+          <svg height="512pt" viewBox="-15 0 512 512.00001" width="512pt" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m.65625 65.007812c-.425781 1.03125-.65234375 2.140626-.65625 3.257813v409.601563c0 18.851562 15.28125 34.132812 34.132812 34.132812h344.746094c11.414063.011719 22.078125-5.695312 28.398438-15.199219l23.953125-36h26.019531c9.707031.023438 18.589844-5.457031 22.921875-14.144531 4.328125-8.6875 3.355469-19.082031-2.511719-26.816406-56.589844-74.195313-51.0625-255.589844-50.992187-257.707032v-128c0-18.851562-15.285157-34.132812-34.132813-34.132812h-324.269531c-1.117187 0-2.226563.222656-3.257813.65625-1.042968.429688-1.988281 1.058594-2.78125 1.851562l-59.734374 59.734376c-.789063.792968-1.414063 1.730468-1.835938 2.765624zm140.878906-47.941406-64.734375 64.734375v-27.066406l37.664063-37.667969zm51.199219 0-76.800781 76.800782h-27.066406l76.800781-76.800782zm51.199219 0-76.800782 76.800782h-27.066406l76.800782-76.800782zm51.199218 0-76.800781 76.800782h-27.066406l76.800781-76.800782zm51.199219 0-76.796875 76.800782h-27.070312l76.800781-76.800782zm-328.234375 466.449219c-.660156-1.8125-1.007812-3.722656-1.03125-5.648437v-312.199219l42.667969-42.667969v38.84375c-.085937 2.492188-.554687 18.679688.136719 42.300781-.058594.214844-.105469.433594-.136719.65625v230.398438c.003906 3.296875.65625 6.5625 1.910156 9.609375zm58.703125-48.316406v-92.695313c9.921875 40.472656 25.4375 78.1875 49.65625 101.230469h-41.125c-4.710937 0-8.53125-3.820313-8.53125-8.535156zm0-404.597657v-13.535156h13.53125zm-17.066406 20.597657v47.675781l-42.667969 42.667969v-69.742188l42.667969-42.667969zm333.300781 436.140625c-3.15625 4.730468-8.464844 7.582031-14.15625 7.59375h-344.746094c-.960937-.015625-1.921874-.113282-2.867187-.289063l41.769531-37.128906c3.753906 2.125 7.984375 3.257813 12.296875 3.285156h325.394531zm71.050782-57.132813c1.976562 2.503907 2.308593 5.933594.851562 8.773438-1.410156 2.949219-4.410156 4.8125-7.679688 4.761719h-301.746093c-85.898438-42.042969-78.796875-278.921876-78.710938-281.609376v-51.199218h332.800781v50.910156c-.257812 7.6875-5.804687 189.292969 54.484376 268.355469zm-55.125-400.433593c.402343 1.417968.617187 2.882812.640624 4.359374v22.066407l-37.667968 37.667969h-27.066406zm.640624 64.09375h-13.535156l13.535156-13.535157zm-12.707031-76.160157-76.160156 76.160157h-27.066406l76.796875-76.800782h22.070312c1.472656.019532 2.941406.234375 4.359375.640625zm0 0">
+            </path>
+            <path
+              d="m352.332031 136.535156c-8.457031.273438-16.429687 4.023438-22.039062 10.359375l-123.222657 139.699219-22.347656-22.316406c-11.859375-11.4375-30.542968-11.757813-42.789062-.734375l-11.015625 8.808593c-7.605469 5.996094-11.863281 15.28125-11.453125 24.957032.375 9.851562 5.453125 18.929687 13.65625 24.398437 26.496094 17.929688 48.519531 41.714844 64.355468 69.511719 3.355469 6.085938 9.761719 9.859375 16.710938 9.847656.597656 0 1.203125 0 1.816406-.085937 7.507813-.628907 13.921875-5.660157 16.324219-12.800781 17.449219-50.753907 66.988281-119.867188 143.25-199.859376 11.5625-12.007812 11.308594-31.085937-.570313-42.785156-6.027343-5.949218-14.210937-9.195312-22.675781-9zm10.878907 39.960938c-79.050782 82.917968-128.542969 152.285156-147.042969 206.105468-.222657.773438-.902344 1.332032-1.707031 1.390626-.867188.09375-1.703126-.359376-2.101563-1.136719-17.132813-30.085938-40.957031-55.832031-69.628906-75.238281-3.714844-2.445313-6.019531-6.53125-6.195313-10.972657-.179687-4.246093 1.691406-8.320312 5.023438-10.957031l11.015625-8.816406c3.082031-2.648438 6.972656-4.167969 11.035156-4.316406 3.398437-.011719 6.660156 1.359374 9.027344 3.796874l28.785156 28.730469c1.617187 1.734375 3.929687 2.648438 6.296875 2.484375 2.355469-.074218 4.574219-1.117187 6.136719-2.882812l129.234375-146.484375c2.476562-2.828125 6.023437-4.496094 9.78125-4.597657 3.769531-.175781 7.4375 1.277344 10.070312 3.984376 5.265625 5.164062 5.386719 13.609374.269532 18.925781zm0 0"
+              style=" stroke: #e90e0e; fill:#e90e0e"></path>
+          </svg>
+          <span class="text-after-svg">Бронирование на любую дату, оформление за 10 минут по двум документам</span>
+        </div>
+      </div>
+      <div class="col-md-4 icon-box">
+        <div class="icon-svg-text">
+          <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 60 60">
+            <g fill-rule="nonzero">
+              <path
+                d="M36.608 26.523l7.812 5.561a1 1 0 0 0 1.16 0l7.812-5.561A6.18 6.18 0 0 0 56 21.509V9.677a1 1 0 0 0-.6-.918l-10-4.32a1 1 0 0 0-.792 0l-10 4.32a1 1 0 0 0-.6.918v11.832a6.181 6.181 0 0 0 2.6 5.014zM36 10.334l9-3.887 9 3.887v11.175a4.178 4.178 0 0 1-1.769 3.391L45 30.042l-7.231-5.148A4.175 4.175 0 0 1 36 21.509V10.334z">
+              </path>
+              <path
+                d="M42.4 23.8a1 1 0 0 0 1.381-.175l8-10a1 1 0 1 0-1.562-1.25l-7.4 9.244L39.6 19.2a1 1 0 1 0-1.2 1.6l4 3z"
+                style="        stroke: #e90e0e;        fill: #e90e0e;   "></path>
+              <path
+                d="M2 53h1v4a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-4h24v4a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-4h1a2 2 0 0 0 2-2V36a4.947 4.947 0 0 0-1.729-3.77l3.44-2.448A10.188 10.188 0 0 0 60 21.509V7.048a1 1 0 0 0-.6-.918L45.4.082a1 1 0 0 0-.792 0L30.6 6.13a1 1 0 0 0-.6.918V11H14.87a5 5 0 0 0-4.714 3.338l-5.89 16.736A4.993 4.993 0 0 0 0 36v15a2 2 0 0 0 2 2zm11 4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-4h8v4zm-4-6H7v-2h2v2zm40 6a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4h8v4zm-2-6h-2v-2h2v2zM32 7.705l13-5.616 13 5.616v13.8a8.183 8.183 0 0 1-3.449 6.644L45 34.952l-9.551-6.8A8.183 8.183 0 0 1 32 21.509V7.705zM47 37a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1 3 3 0 0 1 3-3h4zM30 17v2h-7v-2h7zm0-2h-2v-2h2v2zm-17.957 0a3 3 0 0 1 2.827-2H26v2h-3a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h7v.509a10.188 10.188 0 0 0 4.289 8.273L36 31H6.412l5.631-16zM2 36a3 3 0 0 1 3-3h33.81l3.022 2.152A5 5 0 0 0 38 40a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-2a3 3 0 0 0-1.915-2.789l2.476-1.763A2.958 2.958 0 0 1 52 36v15h-3v-2a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v2H11v-2a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v2H2V36z">
+              </path>
+              <path
+                d="M18 15h-1.711a3.007 3.007 0 0 0-2.83 2L9.705 27.668a1 1 0 0 0 1.887.664l3.754-10.664a1 1 0 0 1 .943-.668H18a1 1 0 0 0 0-2zM7 43h6a3 3 0 0 0 3-3 5.006 5.006 0 0 0-5-5H7a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3zm-1-5a1 1 0 0 1 1-1h4a3 3 0 0 1 3 3 1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zM20 49h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H20a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2zm0-6h14v4H20v-4z">
+              </path>
+            </g>
+          </svg>
+          <span class="text-after-svg">Бесплатная доставка автомобиля при аренде >3 суток (за исключением отдаленных
+            районов)</span>
+        </div>
+      </div>
+      <div class="col-md-4 icon-box">
+        <div class="icon-svg-text">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <g transform="translate(1 1)">
+              <g>
+                <g>
+                  <path
+                    d="M297.667,186.733c-20.212,0-38.877,6.307-54.153,17.067h-99.447c-5.12,0-8.533,3.413-8.533,8.533 c0,5.12,3.413,8.533,8.533,8.533h81.049c-8.124,9.872-14.261,21.449-17.817,34.133h-63.232c-5.12,0-8.533,3.413-8.533,8.533 s3.413,8.533,8.533,8.533h60.119c-0.25,2.81-0.385,5.655-0.385,8.533c0,8.884,1.22,17.469,3.499,25.6h-63.232 c-5.12,0-8.533,3.413-8.533,8.533s3.413,8.533,8.533,8.533h69.884c15.471,30.455,47.053,51.2,83.716,51.2 c52.053,0,93.867-41.813,93.867-93.867C391.533,228.547,349.72,186.733,297.667,186.733z M297.667,357.4 c-42.667,0-76.8-34.133-76.8-76.8c0-4.887,0.468-9.654,1.325-14.279c0.155-0.536,0.262-1.103,0.322-1.697 c3.798-18.206,13.973-33.957,28.113-44.871c0.677-0.379,1.306-0.846,1.866-1.397c12.648-9.16,28.233-14.556,45.174-14.556 c42.667,0,76.8,34.133,76.8,76.8C374.467,323.267,340.333,357.4,297.667,357.4z">
+                  </path>
+                  <path
+                    d="M344.6,238.787c-4.267-2.56-9.387-1.707-11.947,2.56l-45.227,68.267l-26.453-26.453c-3.413-3.413-8.533-3.413-11.947,0 c-3.413,3.413-3.413,8.533,0,11.947l34.133,34.133c1.707,1.707,3.413,2.56,5.973,2.56c3.413,0,5.973-1.707,6.827-4.267l51.2-76.8 C349.72,246.467,348.867,241.347,344.6,238.787z"
+                    style=" stroke:#e90e0e; fill:#e90e0e;"></path>
+                  <path
+                    d="M459.8-1H127c-23.893,0-42.667,18.773-42.667,42.667v349.867H24.6c-14.507,0-25.6,11.093-25.6,25.6V459.8 c0,28.16,23.04,51.2,51.2,51.2h319.147h5.12c12.8,0,24.747-5.12,34.133-13.653c11.093-9.387,17.067-23.04,17.067-37.547V118.467 H485.4c14.507,0,25.6-11.093,25.6-25.6V50.2C511,22.04,487.96-1,459.8-1z M50.2,493.933c-18.773,0-34.133-15.36-34.133-34.133 v-42.667c0-4.267,3.413-8.533,8.533-8.533h68.267h230.4v49.493v1.707c0,12.8,4.267,24.747,12.8,34.133H50.2z M408.6,50.2v409.6 c0,10.24-4.267,18.773-11.093,25.6c-6.422,4.995-14.038,8.189-21.849,8.606c-0.387-0.043-0.781-0.072-1.191-0.072 c-5.787,0-11.247-1.464-16.035-4.032c-10.703-6.039-18.098-17.995-18.098-31.808v-58.027c0-5.12-3.413-8.533-8.533-8.533H101.4 V41.667c0-14.507,11.093-25.6,25.6-25.6h294.4c-1.643,2.008-3.159,4.139-4.542,6.364c-4.797,7.377-7.756,16.044-8.196,25.346 C408.621,48.581,408.6,49.389,408.6,50.2z M493.933,92.867c0,4.267-3.413,8.533-8.533,8.533h-59.733V50.2 c0-18.773,15.36-34.133,34.133-34.133c18.773,0,34.133,15.36,34.133,34.133V92.867z">
+                  </path>
+                  <path
+                    d="M203.8,67.267h102.4c5.12,0,8.533-3.413,8.533-8.533S311.32,50.2,306.2,50.2H203.8c-5.12,0-8.533,3.413-8.533,8.533 S198.68,67.267,203.8,67.267z">
+                  </path>
+                  <path
+                    d="M144.067,118.467h221.867c5.12,0,8.533-3.413,8.533-8.533s-3.413-8.533-8.533-8.533H144.067 c-5.12,0-8.533,3.413-8.533,8.533S138.947,118.467,144.067,118.467z">
+                  </path>
+                  <path
+                    d="M144.067,169.667h221.867c5.12,0,8.533-3.413,8.533-8.533s-3.413-8.533-8.533-8.533H144.067 c-5.12,0-8.533,3.413-8.533,8.533S138.947,169.667,144.067,169.667z">
+                  </path>
+                </g>
+              </g>
+            </g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+          </svg>
+          <span class="text-after-svg">Прозрачные условия аренды, возврат 100% залога в момент возврата
+            автомобиля</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Benefits End -->
+  <!-- Footer -->
+  <div class="footer container-fluid">
+    <div class="footer-content container">
+      <div class="row">
+        <div class="footer-info-margin">
+          <div class="col-md-6">
+            <div class="footer-info-flex">
+              <svg class="footer-icon-1" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13"
+                fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.13362 4.82928C1.3267 5.8435 1.90134 7.78893 3.55696 9.44495C5.21258 11.101 7.15749 11.6759 8.17144 11.869C8.74729 11.9786 9.44126 12.0373 10.0696 11.9739C10.7215 11.9081 11.1515 11.7272 11.3755 11.5032L11.89 10.9886C11.9622 10.9163 12 10.8252 12 10.7228C12 10.6206 11.9623 10.5296 11.89 10.4573L9.83241 8.39918C9.76012 8.32687 9.66926 8.28925 9.56709 8.28925C9.46492 8.28925 9.37406 8.32687 9.30177 8.39918L8.78741 8.91366C8.41026 9.29091 7.9124 9.44208 7.47201 9.44335C7.03164 9.44462 6.53373 9.29639 6.1546 8.92303L6.14451 8.91309L4.08537 6.76708C3.3823 6.06161 3.38299 4.91785 4.08744 4.21323L4.60179 3.69875C4.74908 3.55142 4.74892 3.31442 4.6019 3.16741L2.5442 1.10921C2.39876 0.963733 2.1597 0.963498 2.01384 1.1091L1.49949 1.62374C1.33482 1.78849 1.1478 2.13528 1.05554 2.72542C0.965677 3.30021 0.980174 4.02346 1.13362 4.82928ZM1.30653 0.40219C1.84283 -0.134063 2.71527 -0.134063 3.25139 0.40219L5.30898 2.46027C5.84662 2.99788 5.84662 3.868 5.30898 4.40578L4.79463 4.92025C4.47991 5.23505 4.47991 5.74734 4.79463 6.06213C4.79783 6.06517 4.80087 6.06838 4.80391 6.07159L6.85626 8.21052C7.17284 8.52228 7.766 8.52093 8.08022 8.20664L8.59457 7.69216C8.85445 7.43222 9.19972 7.28925 9.56709 7.28925C9.93446 7.28925 10.2797 7.43222 10.5396 7.69216L12.5972 9.75025C12.8569 10.01 13 10.3554 13 10.7228C13 11.0903 12.8569 11.4358 12.5972 11.6956L12.0827 12.2102C11.1598 13.1334 9.27127 13.0964 7.98437 12.8513C6.86048 12.6373 4.69911 12.0018 2.84977 10.152C1.00042 8.30218 0.365239 6.14029 0.151262 5.0163C-0.189954 3.2244 0.0555797 1.65378 0.79218 0.916838L1.30653 0.40219Z"
+                  fill="#BE1E2D" />
+              </svg>
+              <p class="p-info-text" id="contacts">Тел: </p>
+              <span class="footer-info-text"> +7 913 099 1333</span>
+            </div>
+            <div class="footer-info-flex">
+              <svg class="footer-icon-2" xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11"
+                fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13 1H2C1.44772 1 1 1.44772 1 2V9C1 9.55229 1.44772 10 2 10H13C13.5523 10 14 9.55228 14 9V2C14 1.44772 13.5523 1 13 1ZM2 0C0.895431 0 0 0.895431 0 2V9C0 10.1046 0.89543 11 2 11H13C14.1046 11 15 10.1046 15 9V2C15 0.895431 14.1046 0 13 0H2Z"
+                  fill="#BE1E2D" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M10.2071 5.5L14.3536 1.35355L13.6464 0.646447L9.26777 5.02513C8.29146 6.00144 6.70854 6.00144 5.73223 5.02513L1.35355 0.646447L0.646447 1.35355L4.79289 5.5L0.646447 9.64645L1.35355 10.3536L5.54551 6.16159C6.72309 6.95595 8.27691 6.95595 9.45449 6.16159L13.6464 10.3536L14.3536 9.64645L10.2071 5.5Z"
+                  fill="#BE1E2D" />
+              </svg>
+              <p class="p-info-text">E-mail: </p>
+              <span class="footer-info-text"> wowtt@mail.ru</span>
+            </div>
+            <div class="footer-info-flex">
+              <svg class="footer-icon-3" xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewBox="0 0 11 15"
+                fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9.25064 8.23285C9.74568 7.26669 10 6.46396 10 5.89286C10 3.1245 7.92142 1 5.5 1C3.07858 1 1 3.1245 1 5.89286C1 6.46396 1.25432 7.26669 1.74935 8.23285C2.23125 9.17338 2.88489 10.1623 3.55565 11.0745C4.22381 11.9832 4.89426 12.796 5.39879 13.3826C5.43335 13.4228 5.4671 13.4619 5.5 13.4998C5.5329 13.4619 5.56665 13.4228 5.60121 13.3826C6.10574 12.796 6.77619 11.9832 7.44435 11.0745C8.11511 10.1623 8.76875 9.17338 9.25064 8.23285ZM6.17064 14.2526C7.63732 12.5709 11 8.43764 11 5.89286C11 2.63832 8.53757 0 5.5 0C2.46243 0 0 2.63832 0 5.89286C0 8.43764 3.36268 12.5709 4.82936 14.2526C5.23842 14.7217 5.5 15 5.5 15C5.5 15 5.76158 14.7217 6.17064 14.2526Z"
+                  fill="#BE1E2D" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.5 4.5C4.94772 4.5 4.5 4.94772 4.5 5.5C4.5 6.05228 4.94772 6.5 5.5 6.5C6.05228 6.5 6.5 6.05228 6.5 5.5C6.5 4.94772 6.05228 4.5 5.5 4.5ZM3.5 5.5C3.5 4.39543 4.39543 3.5 5.5 3.5C6.60457 3.5 7.5 4.39543 7.5 5.5C7.5 6.60457 6.60457 7.5 5.5 7.5C4.39543 7.5 3.5 6.60457 3.5 5.5Z"
+                  fill="#BE1E2D" />
+              </svg>
+              <p class="p-info-text">Офис: </p>
+              <span class="footer-info-text"> г. Барнаул, ул. Интернацианальная д.47</span>
+            </div>
+            <div class="footer-info-flex">
+              <svg class="footer-icon-4" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13"
+                fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M6.5 12C9.53757 12 12 9.53757 12 6.5C12 3.46243 9.53757 1 6.5 1C3.46243 1 1 3.46243 1 6.5C1 9.53757 3.46243 12 6.5 12ZM6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13Z"
+                  fill="#BE1E2D" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M6.5 2C6.77614 2 7 2.22386 7 2.5V6H9C9.27614 6 9.5 6.22386 9.5 6.5C9.5 6.77614 9.27614 7 9 7H6.5C6.22386 7 6 6.77614 6 6.5V2.5C6 2.22386 6.22386 2 6.5 2Z"
+                  fill="#BE1E2D" />
+              </svg>
+              <p class="p-info-text">Режим работы: </p>
+              <span class="footer-info-text"> без выходных 8:00 до 21:00 (МСК+4)</span>
+            </div>
+            <div class="footer-info-flex">
+              <p class="p-info-text">ОГРНИП: </p> <span class="footer-info-text"> 321220200216481</span>
+            </div>
+            <div class="footer-info-flex">
+              <p class="p-info-text">ИНН: </p> <span class="footer-info-text"> 222331437450</span>
+            </div>
+            <div class="footer-info-flex">
+              <a href="https://t.me/ANDREY_GENN1" class="social-icon-telegram" target="_blank">
+                <svg class="svg-telegram" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px"
+                  viewBox="0 0 32 32">
+                  <path
+                    d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z" />
+                </svg>
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=79130991333" class="social-icon-wp" target="_blank">
+                <svg class="svg-wp" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                  <g>
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path fill-rule="nonzero"
+                      d="M7.253 18.494l.724.423A7.953 7.953 0 0 0 12 20a8 8 0 1 0-8-8c0 1.436.377 2.813 1.084 4.024l.422.724-.653 2.401 2.4-.655zM2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308c.134-.01.269-.01.403-.004.054.004.108.01.162.016.159.018.334.115.393.249.298.676.588 1.357.868 2.04.062.152.025.347-.093.537a4.38 4.38 0 0 1-.263.372c-.113.145-.356.411-.356.411s-.099.118-.061.265c.014.056.06.137.102.205l.059.095c.256.427.6.86 1.02 1.268.12.116.237.235.363.346.468.413.998.75 1.57 1l.005.002c.085.037.128.057.252.11.062.026.126.049.191.066a.35.35 0 0 0 .367-.13c.724-.877.79-.934.796-.934v.002a.482.482 0 0 1 .378-.127c.06.004.121.015.177.04.531.243 1.4.622 1.4.622l.582.261c.098.047.187.158.19.265.004.067.01.175-.013.373-.032.259-.11.57-.188.733a1.155 1.155 0 0 1-.21.302 2.378 2.378 0 0 1-.33.288 3.71 3.71 0 0 1-.125.09 5.024 5.024 0 0 1-.383.22 1.99 1.99 0 0 1-.833.23c-.185.01-.37.024-.556.014-.008 0-.568-.087-.568-.087a9.448 9.448 0 0 1-3.84-2.046c-.226-.199-.435-.413-.649-.626-.89-.885-1.562-1.84-1.97-2.742A3.47 3.47 0 0 1 6.9 9.62a2.729 2.729 0 0 1 .564-1.68c.073-.094.142-.192.261-.305.127-.12.207-.184.294-.228a.961.961 0 0 1 .371-.1z" />
+                  </g>
+                </svg>
+              </a>
+              <a href="https://go.2gis.com/pvrjq" class="social-icon-2gis" target="_blank">
+                <svg class="svg-2gis" xmlns="http://www.w3.org/2000/svg" width="480" height="192"
+                  viewBox="52 35 117 120">
+                  <!-- <g fill="none" fill-rule="evenodd"><path d="M0 0h480v192H0z"/> -->
+                  <path class="path-2gis" fill="#19AA1E"
+                    d="M112 146c27.5 0 50-22.4 50-50s-22.5-50-50-50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" />
+                  <path fill="#FFF"
+                    d="M112 63c16.5 0 27.7 12.7 27.7 26.4 0 5.5-1.2 10.3-4 16.3-16.4 0-19.4 10.9-20.1 18.2l-.5 5.1h-6.2l-.5-5.1c-.7-7.3-3.7-18.2-20.1-18.2-2.8-6-4-10.8-4-16.3C84.3 75.7 95.5 63 112 63z"
+                    style=" stroke:#181818; fill:#181818;" />
+                  <!-- </g> -->
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="yandex-map">
+              <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afbba0eb5c88a52f0452b7710b8b9c205e2da5123262a5680c4fa76cfd437ede2&amp;width=100%25&amp;height=266&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="disclaimer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          Информация на сайте не является публичной офертой.
+          Продавец оставляет за собой право в любое время вносить какие-либо изменения в данные предложения без
+          предварительного уведомления.
+          Информация на сайте не является публичной офертой. Эти изменения могут быть как существенными, так и
+          незначительными.
+          Однако было сделано все возможное, чтобы обеспечить точность подробных сведений. Данная информация ни при
+          каких
+          условиях не должна рассматриваться как предложение,
+          сделанное Продавцом какому-либо лицу. Несмотря на то, что были приложены все усилия к обеспечению точности
+          информации, процесс подготовки и размещения информации занимает некоторое время.
+          Следовательно, не всегда своевременно отражаются изменения. Покупателям рекомендуется всегда обсуждать
+          конкретные предложения с Продавцом, особенно если Покупатель выбирает товар, исходя из особенностей,
+          предоставленной информации
+        </div>
+      </div>
+    </div>
+    <div class="copyrights">Onewhoknockz © 2022</div>
+  </div>
+  <script src="/js/Script.js"></script>
+  <!-- Footer end -->
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
